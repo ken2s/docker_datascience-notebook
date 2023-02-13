@@ -1,6 +1,16 @@
-# datascience-notebook
+# docker_datascience-notebook
 
-docker-compose.yml
+## Usege
+
+- Start container
+
+```
+docker compose up -d
+```
+
+- Visiting http://localhost:8888/ in a browser loads JupyterLab
+
+## docker-compose.yml
 
 ```
 version: '3'
